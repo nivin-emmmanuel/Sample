@@ -18,11 +18,12 @@ class first
             return n;    
         }
         return 0;
+        
     }
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the limit:  ");
+	System.out.print("Enter the limit:  ");
         int n=sc.nextInt();
         for(int i=2;i<=n;i++)
         {
@@ -32,6 +33,8 @@ class first
                 System.out.print(i+" ");
              }
             
-        }    
+        }
+        
+        
     }
 }
